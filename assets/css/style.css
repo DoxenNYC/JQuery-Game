@@ -1,0 +1,58 @@
+
+body {
+    
+    background-image: url('https://hdwallpaper9.com/up/Diamond-Wallpaper-On-Wallpaper-Hd-2.jpg');
+     background-repeat: no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.container {
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    text-anchor: middle;
+    color: white;
+    background: rgb(206, 1, 127);
+    width: 600px;
+    text-align: center;
+}
+
+p {
+    font-family: cursive;
+    background: rgba(100, 100, 100, 0.438);
+    color: white;
+    width: 600px;
+}
+
+
+#randScore {
+/* border: 5px solid rgb(0, 128, 128); */
+    background: rgb(3, 245, 233);
+    width: 600px;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+div{
+    width: 600px;
+    height: auto;
+}
+
+#totalScore {
+    border: 5px solid lightcoral;
+    background: rgb(3, 245, 233);
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    color: white;
+}
