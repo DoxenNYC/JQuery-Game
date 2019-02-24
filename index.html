@@ -5,43 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Crystal Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Geo" rel="stylesheet" type="text/css">
     
 </head>
 <body>
-    <div class = "container">
-        
-        <h2>Collect The Crystals!</h2>
-
-        <p>You will be given a random number at the start of the game. <br>
-        There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.<br>
-        You win the game by matching your total score to random number, you lose the game if your total score goes above the random number. <br>
-        The balue of each crystal is hidden from you until you click on it. <br>
-        Each time when the game starts, the game will change the values of each crystal.</p>
-
-        <div><p><span id="randScore"></span></p>
-
+    <div class="jumbotron container">
+        <h1>Collect The Crystals</h1>
+    <div id="rules">
+        <p>You will be given a random number at the start of the game.
+            There are four crystals below. By clicking on a crystal you will add a specific amount of points to your current score.
+            You win the game by matching your current score to random number, you lose the game if your current score goes above the random number.
+            The value of each crystal is hidden from you until you click on it.
+            Each time when the game starts, the game will change the values of each crystal.</p>      
         </div>
+                        <p id=result></p>
 
-        <div id = "WinLoss">
-            <p>Wins <span id = "win"></span></p>
-            <p>Losses <span id = "loss"></span></p>
-
-        </div>
-
-        <div id ="crystals">
-            
-        </div>
-
-
-        <div> 
-            <p>Your total score is: </p>
-            <p><span id = "totalScore"></span></p>
-
-        </div>
-
-
-    </div>
+                        <div class="crystals">
+                            
+                        </div>
+                        <br>
+                        <p id="previous"></p>    
+                    
+                        <p id="win"></p>
+                        <p id="lost"></p> 
+         </div>    
+         
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
            crossorigin="anonymous"></script>
